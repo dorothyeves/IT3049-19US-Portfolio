@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 <body>
 <div class="parallax"><h2>Dorothy Eves</h2>
@@ -102,13 +103,17 @@
 
 <div class="parallax"> </div>
 
-<div class="row" style="background-color:#bbb;" >
+<div id="01" class="row" style="background-color:#bbb;" >
   <h2>Favourite Game of all time!</h2>
   &nbsp;
   <h2>METAL GEAR SOLID!!!!</h2> 
   <img src="images/mgs.jpg" class="center" />
 
 </div>
-
+<script>
+    $(document).ready(function() {
+      var content = $("#01").html(content);
+    });
+</script>
 </body>
 </html>
