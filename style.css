@@ -9,14 +9,14 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-height: 70%;
+  height: 70%;
   margin-bottom:auto;
 }
 
 p{
     font-family: 'Special Elite', cursive;
     color: white;
-    text-align: center;
+    
 }
 
 li{
@@ -29,7 +29,7 @@ h3{
 }
 
 h2{
-	font-size: 180px;
+	font-size: 140px;
 	color: white;
 	text-align: center;
 	margin: auto;
@@ -41,7 +41,7 @@ font-family: 'Special Elite', cursive;
   background-image: url('images/bg4.jpg');
 
   /* Full height */
-  height: 90%; 
+  height: 100%; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
